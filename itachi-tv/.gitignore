@@ -1,0 +1,8 @@
+build/
+.gradle/
+local.properties
+*.log
+*.apk
+tv-ip.txt
+itachi-inspired/wallpapers/
+itachi-inspired/wallpaper.jpg

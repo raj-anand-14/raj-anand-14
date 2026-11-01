@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8050810">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingStart="96dp"
+        android:paddingTop="48dp"
+        android:paddingEnd="96dp"
+        android:paddingBottom="72dp">
+
+        <com.itachi.voice.SharinganView
+            android:id="@+id/eye"
+            android:layout_width="220dp"
+            android:layout_height="220dp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.25"
+            android:textAllCaps="true"
+            android:textColor="#E8424A"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/heard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="#9FB3D1"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:fadingEdgeLength="32dp"
+            android:requiresFadingEdge="vertical"
+            android:scrollbars="none">
+
+            <TextView
+                android:id="@+id/reply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.15"
+                android:shadowColor="#000000"
+                android:shadowRadius="8"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp" />
+        </ScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="28dp"
+        android:letterSpacing="0.08"
+        android:text="OK  speak   ·   ▲ ▼  scroll   ·   BACK  close"
+        android:textColor="#7D8BA3"
+        android:textSize="15sp" />
+</FrameLayout>

@@ -1,0 +1,46 @@
+{
+  "background_color": "#06111f",
+  "itachi_mode": true,
+  "wallpaper": true,
+  "wallpaper_rotation_minutes": 5,
+  "wallpaper_dim": 0,
+  "cinematic_home": false,
+  "dock_row": true,
+  "single_row": true,
+  "dock_band": false,
+  "dock_title": false,
+  "always_show_names": false,
+  "show_greeting": false,
+  "date_below_clock": true,
+  "clock_format": "24",
+  "show_inputs_pill": true,
+  "icon_only_buttons": true,
+  "wifi_label_width": 0,
+  "uniform_tiles": false,
+  "dock_glass": false,
+  "dock_opacity": 62,
+  "app_glow": false,
+  "ambient_glow": false,
+  "animations": true,
+  "reduced_motion": false,
+  "focus_overshoot": true,
+  "advanced_effects": true,
+  "app_library": true,
+  "library_button": false,
+  "show_library_pill": false,
+  "dock_apps": [
+    "com.netflix.ninja",
+    "com.amazon.amazonvideo.livingroom",
+    "com.google.android.youtube.tv",
+    "in.startv.hotstar",
+    "com.itachi.voice"
+  ],
+  "icon_only_inputs": true,
+  "hidden_apps": [
+    "com.sonyliv"
+  ],
+  "library_excluded_apps": [
+    "com.sonyliv"
+  ],
+  "columns": 5
+}

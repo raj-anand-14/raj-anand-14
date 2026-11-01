@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Itachi glyph: games (a controller) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#FFFFFFFF" android:pathData="M15,14h18a11,11 0,0 1,10.6 13.6l-1.4,7.4a4.6,4.6 0,0 1,-8 1.8l-3.6,-4.8h-13.2l-3.6,4.8a4.6,4.6 0,0 1,-8 -1.8l-1.4,-7.4a11,11 0,0 1,10.6 -13.6z" />
+    <path android:fillColor="#FF06111F" android:pathData="M14,20h3v3.5h3.5v3h-3.5v3.5h-3v-3.5h-3.5v-3h3.5z" />
+    <path android:fillColor="#FFE2121E" android:pathData="M33,20.5a2.3,2.3 0,1 0,0.01 0z M37,25.5a2.3,2.3 0,1 0,0.01 0z" />
+</vector>

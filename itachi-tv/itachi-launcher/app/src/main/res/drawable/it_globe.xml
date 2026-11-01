@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Itachi glyph: web (a globe) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeWidth="3" android:pathData="M24,6a18,18 0,1 0,0.01 0z M6,24h36 M24,6c-6,5 -6,31 0,36 M24,6c6,5 6,31 0,36 M9,15h30 M9,33h30" />
+    <path android:fillColor="#FFE2121E" android:pathData="M24,21a3,3 0,1 0,0.01 0z" />
+</vector>

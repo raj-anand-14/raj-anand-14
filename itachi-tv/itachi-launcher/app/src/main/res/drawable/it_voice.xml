@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Itachi Voice: a red Mangekyo mark. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#FFE2121E" android:pathData="M24,4a20,20 0,1 0,0.01 0z" />
+    <path android:fillColor="#00000000" android:strokeColor="#FF1A0003" android:strokeWidth="1.6" android:pathData="M24,4.8a19.2,19.2 0,1 0,0.01 0z" />
+    <path android:fillColor="#FF0A0004" android:pathData="M24.95,18.30 C34.45,12.22 42.05,18.30 42.43,28.18 C39.20,23.05 34.45,19.25 29.13,23.05 Z M28.46,27.67 C28.98,38.94 19.91,42.48 11.17,37.87 C17.22,37.64 22.89,35.42 22.26,28.92 Z M18.59,26.03 C8.57,20.84 10.04,11.22 18.40,5.95 C15.58,11.31 14.66,17.33 20.61,20.03 Z" />
+    <path android:fillColor="#FF0A0004" android:pathData="M24,18.9a5.1,5.1 0,1 0,0.01 0z" />
+</vector>

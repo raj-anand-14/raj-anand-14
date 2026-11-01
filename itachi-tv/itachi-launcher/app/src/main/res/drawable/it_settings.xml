@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Itachi glyph: settings (a shuriken-toothed gear) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#FFFFFFFF" android:pathData="M21.5,5h5l1,5.2a14,14 0,0 1,4.4 2.5l5,-1.8 2.5,4.3 -4,3.5a14,14 0,0 1,0 5.1l4,3.5 -2.5,4.3 -5,-1.8a14,14 0,0 1,-4.4 2.5l-1,5.2h-5l-1,-5.2a14,14 0,0 1,-4.4 -2.5l-5,1.8 -2.5,-4.3 4,-3.5a14,14 0,0 1,0 -5.1l-4,-3.5 2.5,-4.3 5,1.8a14,14 0,0 1,4.4 -2.5z" />
+    <path android:fillColor="#FF06111F" android:pathData="M24,17.5a6.5,6.5 0,1 0,0.01 0z" />
+    <path android:fillColor="#FFE2121E" android:pathData="M24,20.5a3.5,3.5 0,1 0,0.01 0z" />
+</vector>

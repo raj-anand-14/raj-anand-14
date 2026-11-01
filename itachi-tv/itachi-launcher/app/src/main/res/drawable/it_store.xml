@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Itachi glyph: store (a bag) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#00000000" android:strokeColor="#FFFFFFFF" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeWidth="3.2" android:pathData="M17,16v-3a7,7 0,0 1,14 0v3" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M9,16h30l-2.4,24.6a3,3 0,0 1,-3 2.4h-19.2a3,3 0,0 1,-3 -2.4z" />
+    <path android:fillColor="#FFE2121E" android:pathData="M24,24a6,6 0,1 0,0.01 0z" />
+</vector>

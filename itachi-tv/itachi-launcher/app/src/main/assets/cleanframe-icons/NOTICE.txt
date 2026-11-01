@@ -1,0 +1,4 @@
+CleanFrame monochrome brand marks used by the private Itachi launcher build.
+Source: https://github.com/ravizikrillah/CleanFrame-AndroidTV/tree/main/app/src/main/assets/cleanframe/assets/icons
+The project is MIT licensed. Icon-specific sources and terms are in SOURCES.json, ADDITIONAL-SOURCES.json, CUSTOM-BRAND-ICONS-LICENSE.txt, and SIMPLE-ICONS-LICENSE.txt.
+Brand names and marks remain the property of their respective owners.

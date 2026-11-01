@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Itachi "All apps" mark: nine rounded tiles, the centre one a small Sharingan. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#FFFFFFFF" android:pathData="M6,4h8a2,2 0,0 1,2 2v8a2,2 0,0 1,-2 2h-8a2,2 0,0 1,-2 -2v-8a2,2 0,0 1,2 -2z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M20,4h8a2,2 0,0 1,2 2v8a2,2 0,0 1,-2 2h-8a2,2 0,0 1,-2 -2v-8a2,2 0,0 1,2 -2z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M34,4h8a2,2 0,0 1,2 2v8a2,2 0,0 1,-2 2h-8a2,2 0,0 1,-2 -2v-8a2,2 0,0 1,2 -2z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M6,18h8a2,2 0,0 1,2 2v8a2,2 0,0 1,-2 2h-8a2,2 0,0 1,-2 -2v-8a2,2 0,0 1,2 -2z" />
+    <path android:fillColor="#FFE2121E" android:pathData="M24,17a7,7 0,1 0,0.01 0z" />
+    <path android:fillColor="#FF0A0004" android:pathData="M24,22a2,2 0,1 0,0.01 0z M24,18.6a1.2,1.2 0,1 0,0.01 0z M28.3,26a1.2,1.2 0,1 0,0.01 0z M19.7,26a1.2,1.2 0,1 0,0.01 0z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M34,18h8a2,2 0,0 1,2 2v8a2,2 0,0 1,-2 2h-8a2,2 0,0 1,-2 -2v-8a2,2 0,0 1,2 -2z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M6,32h8a2,2 0,0 1,2 2v8a2,2 0,0 1,-2 2h-8a2,2 0,0 1,-2 -2v-8a2,2 0,0 1,2 -2z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M20,32h8a2,2 0,0 1,2 2v8a2,2 0,0 1,-2 2h-8a2,2 0,0 1,-2 -2v-8a2,2 0,0 1,2 -2z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M34,32h8a2,2 0,0 1,2 2v8a2,2 0,0 1,-2 2h-8a2,2 0,0 1,-2 -2v-8a2,2 0,0 1,2 -2z" />
+</vector>
