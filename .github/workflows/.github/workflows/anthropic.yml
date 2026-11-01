@@ -1,1 +1,32 @@
 
+name: Anthropic OIDC Authentication
+
+on:
+  workflow_dispatch: # Allows you to manually trigger this test from GitHub
+
+jobs:
+  authenticate:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write # Required to fetch the secure token
+      contents: read
+
+    steps:
+      - name: Fetch Identity Token and Exchange with Anthropic
+        run: |
+          # 1. Get the temporary identity token from GitHub
+          JWT=$(curl -H "Authorization: bearer $ACTIONS_ID_TOKEN_BEARER_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=https://anthropic.com" | jq -r '.value')
+          
+          # 2. Send the token to Anthropic to complete the setup
+          curl -sS https://anthropic.com/v1/oauth/token \
+            -H "content-type: application/json" \
+            --data @- <<JSON
+          {
+            "grant_type": "urn:ietf:params:oauth:grant-type:jwt-bearer",
+            "assertion": "$JWT",
+            "federation_rule_id": "fdrl_014LigDoK49vchaj1N8mHW3N",
+            "organization_id": "9a2369bd-639b-424d-887d-b962f60c4c37",
+            "service_account_id": "svac_01Dc5E8vq1RGTX717j9CoZoS",
+            "workspace_id": "wrkspc_01CFUr4rdYyrbmgMHj1zVsjC"
+          }
+          JSON
